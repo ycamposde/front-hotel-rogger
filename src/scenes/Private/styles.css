@@ -1,0 +1,52 @@
+.logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+}
+
+.logo-img {	
+-webkit-filter: grayscale(100%);
+}
+
+.logo-hotel-rogger {
+  padding: 8px 0px;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.logo-hotel-rogger:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.menu-item-circle,
+.menu-item-circle-xl {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  color: white !important;
+  padding: 8px;
+  text-align: center;
+  margin-bottom: 8px;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 50%;
+  line-height: 0;
+}
+
+.menu-item-circle-xl {
+  width: 40px;
+  height: 40px;
+  padding: 11px;
+  margin-bottom: 25px;
+}
+
+.menu-item-circle:hover, .menu-item-circle-xl:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.ant-menu-inline {
+  background: #f4f5f7 !important;
+}
